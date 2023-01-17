@@ -1,0 +1,143 @@
+table {
+  margin-top: 20px;
+  padding: 0px 5px;
+  border-spacing: 0px;
+  width: 100%;
+}
+table a {
+  text-decoration: none;
+}
+th {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 15px 10px 12px;
+  border-top: 1px solid #a8a8a86e;
+  border-bottom: 1px solid #a8a8a86e;
+  text-align: left;
+}
+tbody tr {
+  background-color: transparent;
+  transition: 60ms background-color ease-in;
+}
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+th:nth-child(1) {
+  width: 20%;
+}
+th:nth-child(2) {
+  width: 30%;
+}
+th:nth-child(3) {
+  width: 7%;
+  text-align: center;
+}
+th:nth-child(4) {
+  width: 10%;
+  padding-left: 35px;
+}
+th:nth-child(5) {
+  width: 10%;
+  padding-left: 25px;
+}
+th:nth-child(6) {
+  width: 10%;
+}
+td {
+  padding: 15px 5px 12px;
+  border-bottom: 1px solid #a8a8a86e;
+  text-align: left;
+  overflow: hidden;
+  word-break: break-all;
+}
+td img {
+  width: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.open,
+.closed,
+.solved {
+  text-align: center;
+}
+.solved button {
+  background-color: transparent;
+  pointer-events: none;
+  border: 2px solid #1c7530;
+  padding: 5px 12px;
+  border-radius: 8px;
+  color: #1c7530;
+  font: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+  margin-right: 12px;
+}
+.closed button {
+  background-color: transparent;
+  pointer-events: none;
+  border: 2px solid #7e7e7e;
+  padding: 5px 12px;
+  border-radius: 8px;
+  color: #7e7e7e;
+  font: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+}
+.open button {
+  border-color: #f13939;
+  background-color: transparent;
+  pointer-events: none;
+  padding: 5px 12px;
+  border-radius: 8px;
+  color: #f13939;
+  font: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+}
+.loadedrequests tr:hover {
+  background-color: red;
+}
+.request-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #294f873b;
+  transition: box-shadow 0.35s;
+  display: flex;
+  align-items: center;
+}
+.request-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.request-preview h2 {
+  font-size: 20px;
+  color: #4235f1;
+  margin-bottom: 8px;
+}
+.request-preview a {
+  text-decoration: none;
+}
+.request-preview button {
+  background: #4235f1;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 0px;
+  display: block;
+}
+.actions {
+  margin-left: auto;
+  margin-top: 10px;
+  display: flex;
+}
+.loading {
+  pointer-events: none;
+  height: 30px;
+}

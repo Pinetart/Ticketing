@@ -1,0 +1,72 @@
+.request-details h1 {
+  font-size: 30px;
+  color: #363636;
+}
+.request-details button {
+  background: #1976d2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0px auto;
+  display: block;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.header a {
+  padding-right: 15px;
+}
+.header img {
+  width: 35px;
+}
+.header .links {
+  margin-left: auto;
+}
+.actions {
+  margin-left: auto;
+  width: 30%;
+  margin-top: 15px;
+}
+.actions .approve {
+  background: none;
+  color: #1c7530;
+  font-weight: 500;
+  font-size: 16px;
+  border: solid 1.8px #1c7530;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 15px;
+  outline: none;
+  transition: background 0.4s;
+  text-transform: uppercase;
+}
+.actions .deny {
+  background: none;
+  color: #f13939;
+  font-weight: 500;
+  font-size: 16px;
+  border: solid 1.8px #f13939;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 15px;
+  outline: none;
+  transition: background 0.4s;
+  text-transform: uppercase;
+}
+.actions .approve:hover {
+  background: #1c7530;
+  color: #ffffff;
+}
+.actions .deny:hover {
+  background: #f13939;
+  color: #ffffff;
+}
+.information p {
+  margin: 10px 0;
+}

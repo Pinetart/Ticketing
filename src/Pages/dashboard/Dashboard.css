@@ -1,0 +1,15 @@
+.filters {
+  display: flex;
+  align-items: center;
+}
+.filters a {
+  margin-left: auto;
+  padding-right: 16px;
+}
+.filters img {
+  width: 30px;
+  transition: 150ms width ease-in;
+}
+.filters img:hover {
+  width: 33px;
+}
